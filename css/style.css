@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*-----------------
+      COMMONS
+-------------------*/
+.container{
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    background-color: steelblue;
+    color: white;
+    border-radius: 10px;
+}
+
+h1{
+    text-align: center;
+    padding: 30px;
+}
+
+.space{
+   margin-left: 10px;
+}
+
+li{
+    margin-top: 10px;
+}
+
+.container> ul{
+    text-align: start;
+}
+
+.text-black{
+    color: black;
+}
+
+button{
+    margin: 36px;
+    background-color: blue;
+    color: white;
+    border: none;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 700;
+    transition: transform 0.3s ease;
+}
+
+
+button:hover{
+    transform: translateY(-5px);
+}
